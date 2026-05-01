@@ -1,0 +1,15 @@
+from clase_persona import Persona
+
+class Estudiante(Persona):
+    curso = ''
+
+    def __init__(self, nombre, edad, curso, universidad):
+        super().__init__(nombre, edad)
+        self.curso = curso
+        self.universidad = universidad
+    
+    def __str__(self):
+        return f"{super().__str__()} - {self.curso}- {self.universidad}"
+
+# estudiante1 = Estudiante("Sandra Villar", 22, "Python")
+# print(estudiante1)
