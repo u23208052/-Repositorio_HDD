@@ -9,8 +9,8 @@ print(persona)
 
 estudiante = Estudiante("Marisela Díaz", 32, "HTML5", "UNI")
 print(estudiante)
-estudiante.nombre = "Mariela Díaz"
-estudiante.edad = 25
+estudiante.nombre = "Miguel Hervias"
+estudiante.edad = 52
 estudiante.curso = "SQL Server"
-estudiante.universidad = "UNMSM"
+estudiante.universidad = "UNI"
 print(estudiante)
