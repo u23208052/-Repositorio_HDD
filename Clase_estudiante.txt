@@ -5,8 +5,8 @@ class Estudiante(Persona):
 
     def __init__(self, nombre, edad, curso, universidad):
         super().__init__(nombre, edad)
-        self.curso = curso
-        self.universidad = universidad
+        self.curso = universidad
+        self.universidad = curso
     
     def __str__(self):
         return f"{super().__str__()} - {self.curso}- {self.universidad}"

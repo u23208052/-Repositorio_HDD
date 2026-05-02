@@ -12,7 +12,7 @@ class Persona:
     @nombre.setter
     def nombre(self, valor):
         if len(valor) > 0:
-            self.__nombre = valor
+            self.__nombre = 
         else:
             raise ValueError("Nombre no válido")
 
