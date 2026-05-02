@@ -1,13 +1,13 @@
 from clase_persona import Persona
 from clase_estudiante import Estudiante
 
-persona = Persona("Felipe Contreras", 28)
+persona = Persona("Felipe Cantuarias", 68)
 print(persona)
 persona.nombre = "Felipe Carrasco"
 persona.edad = 22
 print(persona)
 
-estudiante = Estudiante("Marisela Díaz", 32, "HTML5", "UNI")
+estudiante = Estudiante("Marisela Díaz", 32, "SQL", "UNMSMI")
 print(estudiante)
 estudiante.nombre = "Mariela Díaz"
 estudiante.edad = 25
